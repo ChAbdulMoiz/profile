@@ -431,41 +431,7 @@
       }
     }
 
-    /* Background particles */
-    #particles-bg {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      overflow: hidden;
-    }
-
-    .particle {
-      position: absolute;
-      border-radius: 50%;
-      opacity: 0.5;
-      animation: move-particles 20s linear infinite;
-    }
-
-    @keyframes move-particles {
-      0% {
-        transform: translateY(0) translateX(0);
-      }
-      25% {
-        transform: translateY(-10vh) translateX(10vw);
-      }
-      50% {
-        transform: translateY(-20vh) translateX(0);
-      }
-      75% {
-        transform: translateY(-10vh) translateX(-10vw);
-      }
-      100% {
-        transform: translateY(0) translateX(0);
-      }
-    }
+   
 
     /* Typing animation */
     .typing-animation {
@@ -555,7 +521,7 @@
   </style>
 </head>
 <body>
-  <div id="particles-bg"></div>
+  
   <div id="app" class="dark">
     <!-- Header with centered navigation -->
     <header class="header sticky top-0 z-10 mb-8 w-[95%] max-w-6xl mx-auto rounded-lg shadow-md glass-effect animate__animated animate__fadeInDown">
